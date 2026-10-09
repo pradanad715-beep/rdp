@@ -12,12 +12,13 @@ on:
           - windows-latest
           - windows-2025
           - windows-2022
+          - windows-2019
       userEmail:
         description: 'Email yang terdaftar di Web ThyoCloud'
         required: true
       customUsername:
         description: 'Username RDP (Opsional - Default: thyocloud)'
-        required: false
+        required: true
         default: 'thyocloud'
 
 jobs:
