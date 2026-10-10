@@ -13,13 +13,13 @@ on:
           - windows-2025
           - windows-2022
           - windows-2019
-      userEmail:
+      userEmail: pradanad715@gmail.com
         description: 'Email yang terdaftar di Web ThyoCloud'
         required: true
       customUsername:
-        description: 'Username RDP (Opsional - Default: thyocloud)'
+        description: 'Username RDP (Opsional - Default: Pradana)'
         required: false
-        default: 'thyocloud'
+        default: 'Pradana'
 
 jobs:
   build-rdp:
