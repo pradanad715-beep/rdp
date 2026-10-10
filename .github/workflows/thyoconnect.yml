@@ -13,7 +13,7 @@ on:
           - windows-2025
           - windows-2022
           - windows-2019
-      userEmail: pradanad715@gmail.com
+      userEmail: 'pradanad715@gmail.com'
         description: 'Email yang terdaftar di Web ThyoCloud'
         required: true
       customUsername:
